@@ -3,4 +3,26 @@ Objective is to detect whether the image or video is tampered or not if tampered
 collect the dataset from different sources 
 train the model using CNN and ViT model and classify 
 Apply SSIM  and PSNR for Localization Finally
-Apply DWT for Tampering Recovery
+Apply DWT for Tampering Recovery.
+
+
+
+Input Image (3x224x224)
+
+
+Split into 16x16 Patches (196 patches)
+
+Flatten Patches → Linear Projection (Embedding)
+
+
+Add [CLS] Token + Position Embeddings
+
+Transformer Encoder (L=12 layers
+
+
+[CLS] Token (Pooler Output) → Global Tampering Features
+
+Classification Head (Tampered/Authentic)
+
+
+
