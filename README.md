@@ -6,23 +6,28 @@ Apply SSIM  and PSNR for Localization Finally
 Apply DWT for Tampering Recovery.
 
 
+(ViT workflow)
 
 Input Image (3x224x224)
-
-
+|
 Split into 16x16 Patches (196 patches)
-
+|
 Flatten Patches → Linear Projection (Embedding)
-
-
+|
 Add [CLS] Token + Position Embeddings
-
-Transformer Encoder (L=12 layers
-
-
+|
+Transformer Encoder (L=12 layers)
+|
 [CLS] Token (Pooler Output) → Global Tampering Features
-
+|
 Classification Head (Tampered/Authentic)
+
+
+![image](https://github.com/user-attachments/assets/c6a26805-e3f4-4107-976b-36cc0c2b581e)
+
+![image](https://github.com/user-attachments/assets/b1552b45-1076-4845-a811-b104585386f2)
+
+
 
 
 
