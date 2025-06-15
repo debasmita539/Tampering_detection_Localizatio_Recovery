@@ -27,6 +27,12 @@ Classification Head (Tampered/Authentic)
 
 ![image](https://github.com/user-attachments/assets/b1552b45-1076-4845-a811-b104585386f2)
 
+![image](https://github.com/user-attachments/assets/ffa7acb3-9db7-4518-97c9-f14ec60fa3f2)
+![image](https://github.com/user-attachments/assets/b4228d4a-3d32-4c9f-9448-056b642f8ffb)
+
+
+
+
 
 
 
