@@ -1,4 +1,4 @@
-# Tampering_detection_Localizatio_Recovery
+# Tamper_Detection_Localization_Recovery
 Objective is to detect whether the image or video is tampered or not if tampered then it localized at which portion it is Tamperd and then after it recovery the tampered portion.
 collect the dataset from different sources 
 train the model using CNN and ViT model and classify 
